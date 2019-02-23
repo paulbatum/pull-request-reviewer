@@ -14,7 +14,7 @@ The function code tries to use this token by looking for the `GITHUB_ACCESS_TOKE
 
 ### Webhook
 
-After deploying the function app. Go to the functions portal and get the function URL for the `Review` function. It should include an API key. Then go to the github repo where you want to hook this up and add a webhook and paste in that URL.
+After deploying the function app, go to the functions portal and get the function URL for the `Review` function. It should include an API key. Then go to the github repo where you want to hook this up and add a webhook and paste in that URL.
 
 ### Modify to your needs
 
