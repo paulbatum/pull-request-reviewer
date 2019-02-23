@@ -16,9 +16,9 @@
     }
   },
   "variables": {
-    "functionAppName": "[parameters('appName')]",
-    "hostingPlanName": "[concat(parameters('appName'), '-plan')]",
-    "applicationInsightsName": "[parameters('appName')]",
+    "functionAppName": "[parameters('siteName')]",
+    "hostingPlanName": "[concat(parameters('siteName'), '-plan')]",
+    "applicationInsightsName": "[parameters('siteName')]",
     "storageName": "[concat('function', uniqueString(parameters('siteName')))]",
     "contentShareName": "[toLower(parameters('siteName'))]",
     "repoUrl": "https://github.com/paulbatum/pull-request-reviewer",
