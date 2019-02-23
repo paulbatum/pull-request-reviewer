@@ -78,7 +78,7 @@
       ],
       "dependsOn": [
         "[resourceId('Microsoft.Web/serverfarms', variables('hostingPlanName'))]",
-        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]",
+        "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]",
         "[resourceId('microsoft.insights/components', variables('applicationInsightsName'))]"
       ],
       "location": "[resourceGroup().location]",
