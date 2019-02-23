@@ -3,7 +3,7 @@ A simple example of using Azure Functions to implement a GitHub webhook.
 
 ## What does it do?
 
-It checks to see how many files were modified in the PR, and leaves a comment if it hits a configured threshold.
+It checks to see how many files were modified in the PR, and leaves a comment if it hits a configured threshold. You should be able to easily modify this to do whatever custom behavior you have in mind.
 
 ## Setup
 
